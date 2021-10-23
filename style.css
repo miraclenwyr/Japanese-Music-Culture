@@ -80,6 +80,9 @@ body{
           margin-right: 15px;
       }
   
+      .latest{
+          margin-left: 20px;
+      }
 }
 
 @media only screen and (max-width: 768px) {
@@ -117,5 +120,62 @@ body{
         margin-right: 15px;
     }
 
-     
+
+     .latest{
+         margin: 0 15px;
+     }
+}
+
+
+.otherposts{
+    display: flex;
+    justify-content: left;
+}
+
+.lisa{
+    width: 300px;
+    color: #fff;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.lisa a:hover{
+    color: orange;
+}
+.lisa a{
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.silentsiren {
+    width: 300px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.silentsiren a:hover{
+    color: orange;
+}
+.silentsiren a{
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.otherpost2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: left;
+}
+.otherpost2 a{
+    color:rgba(255, 255, 255, 0.774) ;
+}
+.seiko{
+    width: 300px;
+    margin-right: 50px;
+}
+.seiko a:hover{
+    color: orange;
+}
+.boa a:hover{
+    color: orange;
+}
+.boa{
+    width: 290px;
 }
