@@ -55,9 +55,23 @@ body{
     /* For mobile phones: */
     .news{
         background-color: black;
-        margin: auto;
+        margin-top: 30px;
+        margin-left: 0;
         padding: auto;
         width: 100%;
     }
-  
+    .sub-news h3 {
+        margin-left: 100px;
+     }
+    .sub-news p {
+       margin-left: 20px;
+       margin-right: 10px;
+    }
+    .sub-news a {
+        margin-left: 20px;
+     }
+
+     .nav{
+         justify-content: space-around;
+     }
 }
