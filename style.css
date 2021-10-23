@@ -60,18 +60,15 @@ body{
         padding: auto;
         width: 100%;
     }
-    .sub-news h3 {
-        margin-left: 100px;
-     }
+  .h3{
+      font-size: 13px;
+      text-align: center;
+  }
     .sub-news p {
        margin-left: 20px;
        margin-right: 10px;
     }
     .sub-news a {
         margin-left: 20px;
-     }
-
-     .nav{
-         justify-content: space-around;
      }
 }
