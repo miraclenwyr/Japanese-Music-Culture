@@ -64,11 +64,21 @@ body{
       font-size: 13px;
       text-align: center;
   }
+  .sub-news{
+      font-size: 15px;
+  }
     .sub-news p {
        margin-left: 20px;
        margin-right: 10px;
     }
     .sub-news a {
         margin-left: 20px;
+        
      }
+
+     .nav h4{
+        margin-left: 100px;
+    }
+
+     
 }
