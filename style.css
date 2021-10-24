@@ -9,10 +9,20 @@
 body{
     background-color: #000;
 }
+
+/* ---------- nav -----------*/
+.nav a{
+    color: #fff;
+}
+.nav a:hover {
+    color:rgb(132, 220, 255) ;
+}
 .nav{
     display: flex;
     justify-content: space-between;
 }
+
+/* ---------- icon -----------*/
 
 .icon i{
     color: rgb(255, 255, 255);
@@ -21,6 +31,8 @@ body{
 .icon i:hover{
     color: rgb(200, 213, 255);
 }
+
+/* ---------- news -----------*/
 .news{
     width: 850px;
     height: auto;
@@ -28,6 +40,7 @@ body{
     margin-top: 30px;
  
 }
+
 .news img{
     width: 100%;
     text-align: center;
@@ -83,6 +96,23 @@ body{
       .latest{
           margin-left: 20px;
       }
+      
+      .program {
+          margin: 0 20px;  
+      }
+      .donate-image{
+          margin-left: 50px;
+      }
+      
+    .donate-text{
+        position: absolute;
+        margin-top: 200px;
+        margin-left: 50px;
+        
+    }
+    .donate-text p{
+        font-size: 5px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -127,7 +157,7 @@ body{
      }
 }
 
-
+/* ---------- otherposts -----------*/
 .otherposts{
     display: flex;
     justify-content: left;
@@ -140,7 +170,7 @@ body{
     cursor: pointer;
 }
 .lisa a:hover{
-    color: orange;
+    color: rgb(132, 220, 255);
 }
 .lisa a{
     color: rgba(255, 255, 255, 0.774);
@@ -153,7 +183,7 @@ body{
 }
 
 .silentsiren a:hover{
-    color: orange;
+    color: rgb(132, 220, 255);
 }
 .silentsiren a{
     color: rgba(255, 255, 255, 0.774);
@@ -172,11 +202,45 @@ body{
     margin-right: 50px;
 }
 .seiko a:hover{
-    color: orange;
+    color: rgb(132, 220, 255);
 }
 .boa a:hover{
-    color: orange;
+    color: rgb(132, 220, 255);
 }
 .boa{
     width: 290px;
+}
+
+/* ---------- Donate -----------*/
+.donate{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.donate img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+.donate p{
+    color:#fff;
+    line-height: 2rem;
+    font-size: 15px;
+    margin-top: 30px;
+    width: 80%;
+}
+.donate span:hover{
+    color: rgb(255, 251, 27);
+}
+.donate span{
+    background-color: rgb(5, 107, 133);
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.donate a{
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 0px 5px;
 }
