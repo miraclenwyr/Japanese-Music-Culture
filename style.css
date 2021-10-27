@@ -213,6 +213,18 @@ body{
     width: 290px;
 }
 
+/* ---------- Trend -----------*/
+.trend-news{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.trend img{
+    width:40%;
+}
+.trend a{
+    color: #fff;
+    font-size: 18px;
+}
 /* ---------- Donate -----------*/
 .donate{
     display: flex;
