@@ -154,11 +154,10 @@ body {
 
   .music-videos {
     width: 250px;
-    margin-left: -10px;
   }
   .music-videos img {
-    width: 100px;
     padding: 0 10px;
+    margin-right: 30px;
   }
   .music-title {
     text-align: center;
