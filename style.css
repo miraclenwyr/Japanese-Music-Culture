@@ -1,260 +1,303 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    background-color: #000;
+body {
+  background-color: #000;
 }
 
 /* ---------- nav -----------*/
-.nav a{
-    color: #fff;
+.nav a {
+  color: #fff;
 }
 .nav a:hover {
-    color:rgb(132, 220, 255) ;
+  color: rgb(132, 220, 255);
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* ---------- icon -----------*/
 
-.icon i{
-    color: rgb(255, 255, 255);
-    padding-right: 10px;
+.icon i {
+  color: rgb(255, 255, 255);
+  padding-right: 10px;
 }
-.icon i:hover{
-    color: rgb(200, 213, 255);
+.icon i:hover {
+  color: rgb(200, 213, 255);
 }
 
 /* ---------- news -----------*/
-.news{
-    width: 850px;
-    height: auto;
-    margin-left: 250px;
-    margin-top: 30px;
- 
+.news {
+  width: 850px;
+  height: auto;
+  margin-left: 250px;
+  margin-top: 30px;
 }
 
-.news img{
-    width: 100%;
+.news img {
+  width: 100%;
+  text-align: center;
+}
+.news h2 {
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+.news h3 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-bottom: 1px solid rgb(132, 220, 255);
+  display: inline-block;
+}
+.sub-news {
+  width: 100%;
+  line-height: 2rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  .news {
+    margin-left: 0;
+  }
+  .h3 {
+    font-size: 13px;
     text-align: center;
-}
-.news h2{
+    margin-right: 15px;
+  }
+  .sub-news {
+    font-size: 15px;
+  }
+  .sub-news p {
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+  .sub-news a {
+    margin-left: 20px;
     margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-     
-}
-.news h3{   
-    margin-bottom: 50px;
-    margin-top: 50px;
-    border-bottom: 1px solid rgb(132, 220, 255);
-    display: inline-block;
-}
-.sub-news{
-    width: 100%;
-    line-height: 2rem;
-    color: #fff;
-    margin-bottom: 20px;
-}
-@media only screen and (max-width: 1200px){
-    .news{
+  }
 
-        margin-left: 0;
-    }
-    .h3{
-        font-size: 13px;
-        text-align: center;
-        margin-right: 15px;
-    }
-    .sub-news{
-        font-size: 15px;
-       
-    }
-      .sub-news p {
-         margin-left: 20px;
-         margin-right: 15px;
-      }
-      .sub-news a {
-          margin-left: 20px;
-          margin-bottom: 20px;
-       }
-  
-       .nav h4{
-          margin-left: 100px;
-      }
-  
-      .icon{
-          margin-right: 15px;
-      }
-  
-      .latest{
-          margin-left: 20px;
-      }
-      
-      .program {
-          margin: 0 20px;  
-      }
-      .donate-image{
-          margin-left: 50px;
-      }
-      
-    .donate-text{
-        position: absolute;
-        margin-top: 200px;
-        margin-left: 50px;
-        
-    }
-    .donate-text p{
-        font-size: 5px;
-    }
+  .nav h4 {
+    margin-left: 100px;
+  }
 
- 
+  .icon {
+    margin-right: 15px;
+  }
+
+  .latest {
+    margin-left: 20px;
+  }
+
+  .program {
+    margin: 0 20px;
+  }
+  .donate-image {
+    margin-left: 50px;
+  }
+
+  .donate-text {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+  .donate-text p {
+    font-size: 5px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .news{
-        background-color: black;
-        margin-top: 30px;
-        margin-left: 0;
-        padding: auto;
-        width: 100%;
-    }
-  .h3{
-      font-size: 13px;
-      text-align: center;
-      margin-right: 15px;
+  /* For mobile phones: */
+  .news {
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 0;
+    padding: auto;
+    width: 100%;
   }
-  .sub-news{
-      font-size: 15px;
-     
+  .h3 {
+    font-size: 13px;
+    text-align: center;
+    margin-right: 15px;
   }
-    .sub-news p {
-       margin-left: 20px;
-       margin-right: 15px;
-    }
-    .sub-news a {
-        margin-left: 20px;
-        margin-bottom: 20px;
-     }
+  .sub-news {
+    font-size: 15px;
+  }
+  .sub-news p {
+    margin-left: 20px;
+    margin-right: 15px;
+  }
+  .sub-news a {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
 
-     .nav h4{
-        margin-left: 100px;
-    }
+  .nav h4 {
+    margin-left: 100px;
+  }
 
-    .icon{
-        margin-right: 15px;
-    }
+  .icon {
+    margin-right: 15px;
+  }
 
+  .latest {
+    margin: 0 15px;
+    margin-bottom: 20px;
+  }
+  .new-music-videos h3 {
+    margin-left: 20px;
+  }
 
-     .latest{
-         margin: 0 15px;
-         margin-bottom: 20px
-     }
+  .music-videos {
+    width: 250px;
+    margin-left: -10px;
+  }
+  .music-videos img {
+    padding: 0 10px;
+  }
+  .music-title {
+    text-align: center;
+  }
+  .donate {
+    width: 100%;
+  }
+  .program {
+    display: inline-block;
+  }
+  .donate {
+    text-align: center;
+    margin-left: 60px;
+  }
 }
 
 /* ---------- otherposts -----------*/
-.otherposts{
-    display: flex;
-    justify-content: left;
+.otherposts {
+  display: flex;
+  justify-content: left;
 }
 
-.lisa{
-    width: 300px;
-    color: #fff;
-    margin-right: 50px;
-    cursor: pointer;
+.lisa {
+  width: 300px;
+  color: #fff;
+  margin-right: 50px;
+  cursor: pointer;
 }
-.lisa a:hover{
-    color: rgb(132, 220, 255);
+.lisa a:hover {
+  color: rgb(132, 220, 255);
 }
-.lisa a{
-    color: rgba(255, 255, 255, 0.774);
+.lisa a {
+  color: rgba(255, 255, 255, 0.774);
 }
 
 .silentsiren {
-    width: 300px;
-    color: #fff;
-    cursor: pointer;
+  width: 300px;
+  color: #fff;
+  cursor: pointer;
 }
 
-.silentsiren a:hover{
-    color: rgb(132, 220, 255);
+.silentsiren a:hover {
+  color: rgb(132, 220, 255);
 }
-.silentsiren a{
-    color: rgba(255, 255, 255, 0.774);
+.silentsiren a {
+  color: rgba(255, 255, 255, 0.774);
 }
 
-.otherpost2{
-    margin-top: 50px;
-    display: flex;
-    justify-content: left;
+.otherpost2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: left;
 }
-.otherpost2 a{
-    color:rgba(255, 255, 255, 0.774) ;
+.otherpost2 a {
+  color: rgba(255, 255, 255, 0.774);
 }
-.seiko{
-    width: 300px;
-    margin-right: 50px;
+.seiko {
+  width: 300px;
+  margin-right: 50px;
 }
-.seiko a:hover{
-    color: rgb(132, 220, 255);
+.seiko a:hover {
+  color: rgb(132, 220, 255);
 }
-.boa a:hover{
-    color: rgb(132, 220, 255);
+.boa a:hover {
+  color: rgb(132, 220, 255);
 }
-.boa{
-    width: 290px;
+.boa {
+  width: 290px;
 }
 
 /* ---------- Trend -----------*/
-.trend-news{
-    display: flex;
-    justify-content: space-evenly ;
+.trend-news {
+  display: flex;
+  justify-content: space-evenly;
 }
-.trend img{
-    width:40%;
+.trend img {
+  width: 40%;
 }
-.trend a{
-    color: #fff;
-    font-size: 18px;
+.trend a {
+  color: #fff;
+  font-size: 18px;
 }
+
+/* ---------- new music videos -----------*/
+.new-music-videos {
+  width: inherit;
+  margin-bottom: 20px;
+}
+
+.music-videos {
+  float: left;
+  padding: 10px;
+}
+.music-videos img:hover {
+  border: 3px solid rgb(132, 220, 255);
+}
+.music-title:hover {
+  color: rgb(132, 220, 255);
+}
+.music-title {
+  color: rgb(212, 212, 212);
+  font-size: 13px;
+}
+
+.new-music-videos img {
+  width: 250px;
+  height: 190px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
 /* ---------- Donate -----------*/
-.donate{
-    display: flex;
-    justify-content: space-evenly;
-    
+.donate {
+  display: flex;
+  justify-content: space-evenly;
 }
 .donate img {
-    width: 200px;
-    border-radius: 50%;
-    margin-right: 50px;
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 50px;
 }
-.donate p{
-    color:#fff;
-    line-height: 2rem;
-    font-size: 15px;
-    margin-top: 30px;
-    width: 80%;
+.donate p {
+  color: #fff;
+  line-height: 2rem;
+  font-size: 15px;
+  margin-top: 30px;
+  width: 80%;
 }
-.donate span:hover{
-    color: rgb(255, 251, 27);
+.donate span:hover {
+  color: rgb(255, 251, 27);
 }
-.donate span{
-    background-color: rgb(5, 107, 133);
-    padding: 3px 5px;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
+.donate span {
+  background-color: rgb(5, 107, 133);
+  padding: 3px 5px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
 }
-.donate a{
-    margin-top: 5px;
-    font-size: 18px;
-    padding: 0px 5px;
+.donate a {
+  margin-top: 5px;
+  font-size: 18px;
+  padding: 0px 5px;
 }
