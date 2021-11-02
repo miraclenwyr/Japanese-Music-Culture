@@ -249,12 +249,34 @@ body {
   border-radius: 3px;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 499px){
+
+  .music-videos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 150px;
+    margin-right: auto;
+  }
+  
+  .music-videos img{
+    max-width: 200px;
+  }
+
+  .music-title{
+    background-color: rgb(15, 102, 136);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+  } 
+}
 @media only screen and (max-width: 768px) {
   /* --- New Music Videos --- */
   .new-music-videos h3 {
     margin-left: 20px;
   }
-
   .music-videos {
     margin-right: 50px;
     margin-bottom: 10px;
@@ -283,25 +305,34 @@ body {
   }
 }
 
-/* @media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .music-videos {
-    margin-left: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 270px;
     
   }
   .music-videos img {
     width: 250px;
-    height: auto;
-    
-    
+    padding: 20px;
   }
   .music-title {
-    text-align: left;
-    font-size: 15px;
+    text-align: center;
+    font-size: 13px;
   }
-} */
+}
 
-/* @media only screen and (max-width: 762px){
+/* @media only screen and (min-width: 768px){
+  .new-music-videos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .music-videos img{
+    width: 250px;
+    height: auto;
+  }
   .music-videos{
     margin-left: 40px;
   }
