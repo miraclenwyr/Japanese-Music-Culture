@@ -70,3 +70,17 @@ Band Maid
                 </div>
             </div>
         </div>
+
+
+        /* ---------- Trend -----------*/
+/* .trend-news {
+  display: flex;
+  justify-content: space-evenly;
+}
+.trend img {
+  width: 40%;
+}
+.trend a {
+  color: #fff;
+  font-size: 18px;
+} */

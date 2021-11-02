@@ -7,7 +7,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #000;
+  background-color: rgb(0, 0, 0);
 }
 
 /* ---------- nav -----------*/
@@ -100,14 +100,7 @@ body {
     margin-left: 50px;
   }
 
-  .donate-text {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 50px;
-  }
-  .donate-text p {
-    font-size: 5px;
-  }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -210,19 +203,6 @@ body {
   width: 290px;
 }
 
-/* ---------- Trend -----------*/
-/* .trend-news {
-  display: flex;
-  justify-content: space-evenly;
-}
-.trend img {
-  width: 40%;
-}
-.trend a {
-  color: #fff;
-  font-size: 18px;
-} */
-
 /* ---------- new music videos -----------*/
 
 .music-videos img:hover {
@@ -297,22 +277,23 @@ body {
   }
 }
 
-@media only screen and (max-width: 499px) {
+/* @media only screen and (max-width: 768px) {
   .music-videos {
     margin-left: 100px;
     width: 270px;
-    /* background-color: rgb(17, 94, 90) */
+    
   }
   .music-videos img {
-    width: 350px;
-    height: 300px;
-    margin-left: -30px;
+    width: 250px;
+    height: auto;
+    
+    
   }
   .music-title {
-    text-align: center;
+    text-align: left;
     font-size: 15px;
   }
-}
+} */
 
 /* @media only screen and (max-width: 762px){
   .music-videos{
@@ -353,8 +334,37 @@ body {
   color: rgb(255, 147, 147);
 }
 
-@media only screen and (max-width: 499px) {
-  .footer h3 {
+@media only screen and (max-width: 768px) {
+ 
+  .footer-image{
+    width: 300px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .footer-image img{
+    margin-top: 100px;
+    width: 200px;
+  }
+
+  .footer-text{
+    /* background-color: #fff; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  .footer-text p{
+    font-size: 13px;
+    width: 300px;
+    margin: 20px 0;
+    line-height: 1.8rem;
+    color: rgba(255, 255, 255, 0.795);
+  }
+  
+
+  /* .footer h3 {
     margin-left: 20px;
   }
   .footer-image img {
@@ -362,13 +372,14 @@ body {
   }
   .footer-text {
     display: inline-block;
-    margin-top: 200px;
+    margin-top: 20 0px;
     text-align: center;
     margin-left: -50%;
-  }
+  } */
 }
 
-@media only screen and (min-width: 500px) {
+
+/* @media only screen and (max-width: 1200px) {
   .footer-name {
     margin-left: 20px;
   }
@@ -387,8 +398,9 @@ body {
     top: -10px;
     font-size: 13px;
   }
+} */
 
-  /* ---------- Donate -----------*/
+/* ---------- Donate -----------*/
   /* .program {
     display: inline-block;
     margin-top: 100px;
@@ -427,5 +439,4 @@ body {
   margin-top: 5px;
   font-size: 18px;
   padding: 0px 5px;
-
 }
