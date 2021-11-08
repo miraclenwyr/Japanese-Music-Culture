@@ -285,20 +285,12 @@ body {
   }
 } 
 
-/* @media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
+
   .new-music-videos{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
   }
-  .music-videos img{
-    width: 250px;
-    height: auto;
-  }
-  .music-videos{
-    margin-left: 40px;
-  }
-} */
+}
 
 /* ---------- Footer -----------*/
 
