@@ -258,19 +258,28 @@ body {
   cursor: pointer;
 }
 
- @media only screen and (max-width: 499px){
-  .new-music-videos{  
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (max-width: 485px){
+
+  .new-music-videos{
     width: 100%;
+ 
   }
 
-  .music-title p{
-    border-radius: 3px;
+  .mv{
+    width: 60%;
     margin: auto;
-    background-color: rgb(13, 55, 71);
   }
 
 }
- @media only screen and (max-width: 500px) {
+
+
+@media only screen and (max-width: 768px){
 
   .new-music-videos{
     width: 100%;
@@ -279,35 +288,10 @@ body {
   .new-music-videos h3{
     margin-left: 20px;
   }
-  .music-title {
-    text-align: center;
-    font-size: 13px;
-  }
-} 
-
-@media only screen and (max-width: 768px){
-
-  .new-music-videos{
-    width: 100%;
-  }
 }
 
-/* ---------- Footer -----------*/
+/* ---------- Footer-----------*/
 
-/* .footer-name {
-  color: #fff;
-}
-.footer-name p {
-  width: 50%;
-  margin-left: 300px;
-  line-height: 2rem;
-  margin-top: -180px;
-  
-} 
-.footer h3 {
-  color: #fff;
-  margin-left: 10px;
-}*/
 .footer{
   width: 850px;
   margin: auto;
