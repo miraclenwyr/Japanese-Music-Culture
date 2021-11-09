@@ -5,11 +5,9 @@
   list-style: none;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
-  
 }
 body {
   background-color: rgb(0, 0, 0);
- 
 }
 
 /* ---------- nav -----------*/
@@ -32,7 +30,9 @@ body {
   display: none;
   background-color: #f1f1f1;
 }
-
+#omv:hover {
+  color: orange;
+}
 .navbar li a {
   display: block;
   color: #000;
@@ -85,7 +85,7 @@ body {
   margin-bottom: 20px;
 }
 
-.youtube-link a{
+.youtube-link a {
   color: rgb(132, 220, 255);
 }
 
@@ -128,8 +128,6 @@ body {
   .donate-image {
     margin-left: 50px;
   }
-
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -178,7 +176,7 @@ body {
   }
 }
 /* ---------- latest -----------*/
-.latest:hover{
+.latest:hover {
   transition: 2s;
 }
 /* ---------- otherposts -----------*/
@@ -245,40 +243,39 @@ body {
 }
 /* hover section */
 
-.new-music-videos{
+.new-music-videos {
   width: 850px;
   margin: auto;
   transition: 1;
 }
 
-.music-videos p:hover{
+.music-videos p:hover {
   color: orange;
 }
-.music-videos p{
-  padding:5px 0;
+.music-videos p {
+  padding: 5px 0;
 }
 
-.new-music-videos h3{
+.new-music-videos h3 {
   display: inline-block;
-  margin:50px 0;
+  margin: 50px 0;
 }
 
-.music-videos{
+.music-videos {
   display: inline-block;
   margin-bottom: 50px;
-  
 }
 
-.mv{
+.mv {
   columns: 200px 3;
 }
 
-.music-title p{
+.music-title p {
   color: rgb(212, 212, 212);
   font-size: 13px;
   text-align: center;
   margin-top: 10px;
-  background-color:rgb(13, 55, 71);
+  background-color: rgb(13, 55, 71);
   /* padding: 5px 0; */
 }
 
@@ -295,86 +292,129 @@ body {
   display: table;
 }
 
-@media only screen and (max-width: 485px){
-
-  .new-music-videos{
+@media only screen and (max-width: 485px) {
+  .new-music-videos {
     width: 100%;
- 
   }
 
-  .mv{
+  .mv {
     width: 60%;
     margin: auto;
   }
-
 }
 
-
-@media only screen and (max-width: 768px){
-
-  .new-music-videos{
+@media only screen and (max-width: 768px) {
+  .new-music-videos {
     width: 100%;
   }
 
-  .new-music-videos h3{
+  .new-music-videos h3 {
     margin-left: 20px;
   }
 }
 
 /* ---------- Footer-----------*/
 
-.footer{
+.footer {
   width: 850px;
   margin: auto;
   color: rgb(216, 216, 216);
 }
-.footer h3{
+.footer h3 {
   border-bottom: 1px solid rgb(188, 247, 255);
   display: inline-block;
   margin: 50px 0;
 }
 .footer-image {
-    width: 100%;
-    justify-content: center;
-    align-content: center;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
 }
 
 .footer-image img {
-      width: 200px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;  
-      border-radius: 50%;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
 }
-.footer-text{
-      width: 50%;
-      display: block;
-      margin: 10px auto;  
-      text-align: center;
+.footer-text {
+  width: 50%;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
 }
 
-.social{
+.social {
   margin-top: 10px;
   margin-right: 10px;
 }
-.social:hover{
+.social:hover {
   color: rgb(188, 247, 255);
 }
 
 @media only screen and (max-width: 768px) {
-
-  .footer{
-
+  .footer {
     width: 100%;
   }
-  .footer h3{
+  .footer h3 {
     margin-left: 20px;
   }
-  .footer-text p{
+  .footer-text p {
     font-size: 13px;
     width: 250px;
     margin: 20px 0;
     line-height: 1.8rem;
     color: rgba(255, 255, 255, 0.795);
+  }
 }
-  
+
+.sticky {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(47, 142, 155);
+  position: fixed;
+
+  right: 300px;
+  bottom: 30px;
+  cursor: pointer;
+}
+.sticon i:hover {
+  color: orange;
+}
+.sticon i {
+  font-size: 18px;
+  color: rgb(241, 241, 241);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 768px) {
+  .sticky {
+    width: 30px;
+    height: 30px;
+    top: 450px;
+    opacity: 80%;
+    right: 10px;
+  }
+  .sticon i {
+    font-size: 15px;
+    color: rgb(241, 241, 241);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sticky {
+    width: 30px;
+    height: 30px;
+    top: 450px;
+    opacity: 80%;
+    right: 10px;
+  }
+}
