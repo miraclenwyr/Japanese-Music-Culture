@@ -337,12 +337,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 .footer-text {
-  width: 50%;
-  display: block;
-  margin: 10px auto;
   text-align: center;
+  margin: auto;
+  width: 50%;
 }
 
 .social {
