@@ -133,7 +133,7 @@ body {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .news {
-    background-color: black;
+    /* background-color: black; */
     margin-top: 30px;
     margin-left: 0;
     padding: auto;
@@ -292,27 +292,15 @@ body {
   display: table;
 }
 
-@media only screen and (max-width: 485px) {
-  .new-music-videos {
-    width: 100%;
-  }
-
-  .mv {
-    width: 60%;
-    margin: auto;
-  }
-}
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 499px) {
   .new-music-videos {
     width: 100%;
   }
 
   .new-music-videos h3 {
-    margin-left: 20px;
+    margin-left: 18px;
   }
 }
-
 /* ---------- Footer-----------*/
 
 .footer {
@@ -353,17 +341,21 @@ body {
   color: rgb(188, 247, 255);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 499px) {
   .footer {
     width: 100%;
   }
+
   .footer h3 {
     margin-left: 20px;
   }
+  .footer-text {
+    margin: auto;
+    width: 70%;
+    margin-bottom: 20px;
+  }
   .footer-text p {
     font-size: 13px;
-    width: 250px;
-    margin: 20px 0;
     line-height: 1.8rem;
     color: rgba(255, 255, 255, 0.795);
   }
