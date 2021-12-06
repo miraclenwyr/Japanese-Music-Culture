@@ -232,7 +232,6 @@ body {
 .boa {
   width: 290px;
 }
-
 /* ---------- new music videos -----------*/
 
 .music-videos img:hover {
@@ -264,18 +263,25 @@ body {
 .music-videos {
   display: inline-block;
   margin-bottom: 50px;
+  /* background-color: rgb(71, 127, 141); */
 }
 
 .mv {
   columns: 200px 3;
 }
 
+.music-title {
+  display: flex;
+  justify-content: center;
+}
 .music-title p {
   color: rgb(212, 212, 212);
+  display: inline-block;
   font-size: 13px;
   text-align: center;
+  color: rgb(77, 204, 255);
   margin-top: 10px;
-  background-color: rgb(13, 55, 71);
+  /* background-color: rgb(13, 55, 71); */
   /* padding: 5px 0; */
 }
 
@@ -291,15 +297,7 @@ body {
   clear: both;
   display: table;
 }
-
 @media only screen and (max-width: 499px) {
-  .new-music-videos {
-    width: 100%;
-  }
-
-  .new-music-videos h3 {
-    margin-left: 18px;
-  }
 }
 /* ---------- Footer-----------*/
 
