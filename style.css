@@ -297,8 +297,14 @@ body {
   clear: both;
   display: table;
 }
-@media only screen and (max-width: 499px) {
-}
+/* @media only screen and (min-width: 500px) {
+  .music-videos {
+    margin-left: 20%;
+  }
+  .row {
+    display: flex;
+  }
+} */
 /* ---------- Footer-----------*/
 
 .footer {
@@ -407,4 +413,24 @@ html {
     opacity: 80%;
     right: 10px;
   }
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(255, 87, 87);
+}
+
+.container img {
+  width: 250px;
+  height: 200px;
+  border-radius: 3px;
+}
+
+.container p:hover {
+  color: steelblue;
+}
+.container p {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
 }
