@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Padauk:wght@400;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.category-title {
+  padding: 0 1rem;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.category-group {
+  list-style: none;
+  padding: 0;
+}
+.category-link {
+  display: block;
+  background-color: #f8f9fa;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+.category-link:hover {
+  color: white;
+  background-color: rgb(47, 142, 155);
+}
+
+@media screen and (max-width: 768px) {
+  .nav-link {
+    background-color: rgb(3, 86, 97);
+    text-align: center;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 2rem;
+  }
+
+  .navbar-nav .btn {
+    display: inherit;
+    margin-right: 1rem;
+    padding: 0.5rem 0;
+    margin-top: 10px;
+  }
+}
+
+.nav-item:hover {
+  color: orange;
+}
+
+/* <!---------- Music Videos ----------> */
+.music-videos p:hover {
+  color: rgb(255, 166, 0);
+}
+/* .music-videos p {
+  padding: 5px 0;
+} */
+.music-videos img:hover {
+  border: 3px solid rgb(132, 220, 255);
+  transition: 0.5s;
+}
+.music-title:hover {
+  color: rgb(255, 157, 28);
+}
+
+.music-title p {
+  font-size: 13px;
+  color: rgb(132, 220, 255);
+  margin-top: 10px;
+}
+.music-videos {
+  margin: 10px 0;
+}
+.music-videos img {
+  width: 300px;
+  height: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* <!---------- Article Text ----------> */
+
+.article-text {
+  color: var(--bs-primary);
+}
+
+.article-btn {
+  border-radius: 2rem;
+  border: 1px solid var(--bs-primary);
+  color: rgb(132, 220, 255);
+  transition: 0.3s;
+  margin: 0 20px;
+}
+.article-btn:hover {
+  color: rgb(255, 145, 0);
+  background-color: rgb(132, 220, 255);
+}

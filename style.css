@@ -262,7 +262,9 @@ body {
 
 .music-videos {
   display: inline-block;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-right: 20px;
   /* background-color: rgb(71, 127, 141); */
 }
 
@@ -427,10 +429,36 @@ html {
 }
 
 .container p:hover {
-  color: steelblue;
+  color: rgb(188, 247, 255);
 }
 .container p {
   text-align: center;
   color: white;
   margin-top: 20px;
+}
+
+.tags a {
+  margin-right: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.tag {
+  border: 1px solid rgb(188, 247, 255);
+}
+.tags a:hover {
+  color: rgb(188, 247, 255);
+}
+
+.music_videos2 {
+  animation-name: mv2;
+  animation-duration: 1s;
+}
+@keyframes music_videos2 {
+  50% {
+    opacity: 1;
+  }
+}
+
+.mv-section {
+  width: 850px;
 }
