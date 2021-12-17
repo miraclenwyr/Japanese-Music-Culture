@@ -116,8 +116,7 @@
 /*----------- Animation -----------*/
 .music-videos {
   animation-name: mvmate;
-  animation-duration: 1s;
-
+  animation-duration: 2s;
   animation-iteration-count: 1;
 }
 
@@ -126,8 +125,18 @@
     opacity: 1;
   }
   50% {
-    transform: rotate(360deg);
-    opacity: 0.5;
+    transform: translateX(-40px);
+    opacity: 0.1;
+    transition: 0.5s;
+  }
+  80% {
+    transform: translateX(50px);
+    opacity: 0.1;
+    transition: 0.5s;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0.1;
     transition: 0.5s;
   }
 }
