@@ -480,3 +480,10 @@ html {
 .mv-section {
   width: 850px;
 }
+
+
+/* ----------- Animation-Section ---------- */
+.animate__animated .animate__FadeInLeft{
+  --animate-duration: 5s;
+  --animate-delay:3s;
+}
