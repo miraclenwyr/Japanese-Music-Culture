@@ -1,6 +1,6 @@
+let body = document.getElementById('body');
+let darkMode = document.getElementById('darkMode');
 
-
-document.getElementById('home').addEventListener('click', function () {
-    let body = document.getElementById('body');
-    body.style.backgroundColor = 'White';
+darkMode.addEventListener('click', function () {
+    body.style.backgroundColor = 'white';
 })
