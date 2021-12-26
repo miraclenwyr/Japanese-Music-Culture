@@ -390,9 +390,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgb(47, 142, 155);
-  position: fixed;
-
-  right: 300px;
+  position: sticky;
+  left: 1000px;
   bottom: 30px;
   cursor: pointer;
 }
@@ -483,7 +482,3 @@ html {
 
 
 /* ----------- Animation-Section ---------- */
-.animate__animated .animate__FadeInLeft{
-  --animate-duration: 5s;
-  --animate-delay:3s;
-}
